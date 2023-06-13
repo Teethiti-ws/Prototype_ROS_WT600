@@ -1,0 +1,25 @@
+
+<launch>
+ <!-- joy node -->
+  <node respawn="true" pkg="joy"
+        type="joy_node" name="teleop" output="screen">
+    <param name="dev" type="string" value="/dev/input/js2" />
+    <param name="deadzone" value="0.2" />
+  </node>
+<!-- rosserial node -->
+<!-- Axes -->
+  <param name="axis_linear" value="1" type="int"/>
+  <param name="axis_angular" value="3" type="int"/>
+  <param name="axis_strafe" value="0" type="int"/>
+  <param name="scale_linear" value="1" type="double"/>
+  <param name="scale_angular" value="1" type="double"/>
+  <param name="scale_strafe" value="1" type="double"/>
+  <node pkg="move" type="joy" name="joy"/>
+
+    <node name="image_view" pkg="image_view" type="image_view"
+respawn="false" output="screen">
+        <remap from="image" to="/camera/color/image_raw" />
+    </node>
+
+</launch>
+

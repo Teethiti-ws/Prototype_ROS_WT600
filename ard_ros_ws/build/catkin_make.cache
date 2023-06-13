@@ -1,0 +1,2 @@
+ard:move:myodom:robot_odom
+-DCATKIN_DEVEL_PREFIX=/home/tee1604/ard_ros_ws/devel -DCMAKE_INSTALL_PREFIX=/home/tee1604/ard_ros_ws/install -G Unix Makefiles

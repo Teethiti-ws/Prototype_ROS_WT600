@@ -1,0 +1,8 @@
+prefix=/home/ubuntu/camera_ros/devel
+
+Name: astrapro_launch
+Description: Description of astrapro_launch
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

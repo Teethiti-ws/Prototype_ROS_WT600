@@ -1,0 +1,8 @@
+prefix=/home/tee1604/ard_ros_ws/devel
+
+Name: MyOdom
+Description: Description of MyOdom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

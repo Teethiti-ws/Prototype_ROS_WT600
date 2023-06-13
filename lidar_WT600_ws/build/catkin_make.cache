@@ -1,0 +1,2 @@
+3irobotics-delta2a-sdk:rplidar_ros:ydlidar
+-DCATKIN_DEVEL_PREFIX=/home/tee1604/lidar/devel -DCMAKE_INSTALL_PREFIX=/home/tee1604/lidar/install -G Unix Makefiles

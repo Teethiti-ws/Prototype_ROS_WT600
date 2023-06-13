@@ -1,0 +1,8 @@
+prefix=/home/tee1604/ard_ros_ws/install
+
+Name: myodom
+Description: Description of myodom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

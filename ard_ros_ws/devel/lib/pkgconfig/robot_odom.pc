@@ -1,0 +1,8 @@
+prefix=/home/tee1604/ard_ros_ws/devel
+
+Name: robot_odom
+Description: Description of robot_odom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
